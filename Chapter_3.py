@@ -17,9 +17,19 @@ else:
 #3.) Write a program than prints a message if a variable is less than or equal 
 #    to 10, another message if the variable is greater than 10 but less than or
 #    equal to 25, and another message if the variable is greater than 25
+y = int(input("pick a number between 1 and 40: "))
+
+if y <= 10:
+    print("y is less than or equal to 10")
+elif y > 10 and y <= 25:
+    print("y is greater than 10 but less than or equal to 25")
+else:
+    print("y is greater than 25")
 
 
 #4.) Create a program that divides two variables and prints the remainer
+a = int(input("input an odd number over 40"))
+b = int(input("pick an even number under 20"))
 
 
 #5.) Create a program that takes two variables, divides them, and prints the quotient
