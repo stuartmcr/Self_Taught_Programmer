@@ -28,12 +28,28 @@ else:
 
 
 #4.) Create a program that divides two variables and prints the remainer
-a = int(input("input an odd number over 40"))
-b = int(input("pick an even number under 20"))
+a = int(input("input an odd number over 40: "))
+b = int(input("pick an even number under 20: "))
+
+c = a%b
+print(c)
 
 
 #5.) Create a program that takes two variables, divides them, and prints the quotient
+d = int(input("input an odd number over 30: "))
+e = int(input("pick an even number under 10: "))
 
+f = d/e
+print(f)
 
 #6.) Write a program with a variable 'age' assigned to an integer that prints
 #    different strings depending on what integer 'age' is
+age = int(input("how old are you? "))
+
+if age < 18:
+    print("sorry, no voting for you")
+elif age >= 18 and age < 21:
+    print("scratch-offs are gonna have to do")
+else:
+    print("dobby is a free elf")
+
