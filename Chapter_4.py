@@ -9,6 +9,12 @@ y = f(value)
 print(y)
 
 #2.) Create a function that accepts a string as a parameter and prints it
+def g(a):
+    return str(a)
+
+string = input("your fav animal is: ")
+z = g(string)
+print(z)
 
 
 #3.) Write a function that takes three required parameters and two optional parameters
