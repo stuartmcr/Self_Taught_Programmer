@@ -4,17 +4,13 @@
 def f(x):
     return x**2
 
-value = int(input("give me a number between 3 and 9: "))
-y = f(value)
-print(y)
+print(f(7))
 
 #2.) Create a function that accepts a string as a parameter and prints it
 def g(a):
     return str(a)
 
-string = input("your fav animal is: ")
-z = g(string)
-print(z)
+print(g("Hello, World!"))
 
 
 #3.) Write a function that takes three required parameters and two optional parameters
