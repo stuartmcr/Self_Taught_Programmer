@@ -32,7 +32,18 @@ else:
 #    function should take an integer as a parameter and return the result of the 
 #    integer multiplied by 4. Call the first function, save the result as a 
 #    variable, and pass it as a parameter to the second function
+def first_round(h):
+    return h/2
 
+pass_var = first_round(16)
+
+def second_round(i):
+    return i*4
+
+final_var = second_round(pass_var)
+
+print(pass_var)
+print(final_var)
 
 #5.) Write a function that converts a string to a float and returns the result. Use
 #    exception handling to catch the exception that could occur
