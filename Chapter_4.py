@@ -1,19 +1,30 @@
 #Challenge
 
 #1.) Write a function that takes a number as an input and returns that number squared
-def f(x):
-    return x**2
+def squared(a):
+    return a**2
 
-print(f(7))
+print(squared(7))
 
 #2.) Create a function that accepts a string as a parameter and prints it
-def g(a):
-    return str(a)
+def the_string(b):
+    return str(b)
 
-print(g("Hello, World!"))
-
+print(the_string("Hello, World!"))
 
 #3.) Write a function that takes three required parameters and two optional parameters
+def parameters(c, d, e):
+    return c + d + e
+
+f = 10
+g = 12
+
+required = parameters(5, 6, 7)
+x = str(input("include optional values? yes or no: "))
+if x == "yes":
+    print(required + f + g)
+else:
+    print(required)
 
 
 #4.) Write a program with two functions. The first function should take an integer
