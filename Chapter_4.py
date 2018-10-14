@@ -42,11 +42,24 @@ def second_round(i):
 
 final_var = second_round(pass_var)
 
-print(pass_var)
+print(pass_var) 
 print(final_var)
 
 #5.) Write a function that converts a string to a float and returns the result. Use
 #    exception handling to catch the exception that could occur
+def converter(j):
+    return float(j)
 
+a = input("give me a numeric string: ")
+try:
+    print(converter(a))
+except ValueError:
+    print("i said numeric")
 
 #6.) Add a docstring to all of the functions you wrote in challenges 1-5
+
+#prob1 - function to square a number
+#prob2 - function to return a string
+#prob3 - gives the option of choosing to include additional values or not
+#prob4 - cycles the answer of the first function through the second
+#prob5 - returns the float value of an inputted string
