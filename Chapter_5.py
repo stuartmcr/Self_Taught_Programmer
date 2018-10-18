@@ -6,7 +6,10 @@ print(fav_musicians)
 
 #2.) Create a list of tuples, with each tuple containing the longitude
 #    and latitude of somewhere you've lived or visited
-
+scotland = (89.3, 78.2)
+houston = (45.3, 12.7)
+print(scotland)
+print(houston)
 
 #3.) Create a dictionary that contains different attributes about
 #    you: height, favorite color, favorite author, etc.
