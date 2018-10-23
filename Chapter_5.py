@@ -28,7 +28,13 @@ else:
 
 #5.) Create a dictionary mapping your favorite musicians to a list of your
 #    favorite songs by them
+my_artists = dict()
 
+my_artists["glitch mob"] = "fortune days"
+my_artists["kygo"] = "firestone"
+my_artists["tyga"] = "taste"
+
+print(my_artists)
 
 #6.) Lists, tuples, and dictionaries are just a few of the containers built
 #    into Python. Research Python sets. When would you use a set?
