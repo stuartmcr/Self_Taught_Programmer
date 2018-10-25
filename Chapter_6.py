@@ -24,12 +24,15 @@ print(d)
 
 #4.) Take the string "where now? who now? when now?" and call a method that
 #    returns a list that looks like: ["where now?", "who now?", "when now?"]
-
+e = "where now? who now? when now?".split("?")
+print(e)
 
 #5.) Take the list ["the", "fox", "jumped", "over", "the", "fence", "."] and
 #    turn it into a grammatically correct string. There should be a space 
 #    between each word, but no space between the word fence and the period
-
+f = ["the", "fox", "jumped", "over", "the", "fence", "."]
+g = " ".join(f)
+print(g)
 
 #6.) Replace every instance of "s" in "A screaming comes across the sky" with
 #    a dollar sign
