@@ -1,10 +1,15 @@
 #Challenges
 
 #1.) Print every character in the string "Camus"
-
+task_1 = "Camus"
+print(task_1[0])
+print(task_1[1])
+print(task_1[2])
+print(task_1[3])
+print(task_1[4])
 
 #2.) Write a program that collects two strings from a user, inserts them into the
-#    string "yesterday i wrote a (response1). I sent it to (response2!" and
+#    string "yesterday i wrote a (response1). I sent it to (response2!)" and
 #    prints a new string
 
 
