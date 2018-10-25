@@ -11,7 +11,11 @@ print(task_1[4])
 #2.) Write a program that collects two strings from a user, inserts them into the
 #    string "yesterday i wrote a (response1). I sent it to (response2!)" and
 #    prints a new string
+a = input("give me a noun: ")
+b = input("give me a name: ")
 
+c = "yesterday i wrote a {}. i sent it to {}".format(a, b)
+print(c)
 
 #3.) Use a method to make the string "aldous Huxley was born in 1894."
 #    grammatically correct by capitalizing the first word of the sentence
