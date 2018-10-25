@@ -19,7 +19,8 @@ print(c)
 
 #3.) Use a method to make the string "aldous Huxley was born in 1894."
 #    grammatically correct by capitalizing the first word of the sentence
-
+d = "aldous Huxley was born in 1894".capitalize()
+print(d)
 
 #4.) Take the string "where now? who now? when now?" and call a method that
 #    returns a list that looks like: ["where now?", "who now?", "when now?"]
