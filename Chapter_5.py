@@ -38,3 +38,18 @@ print(my_artists)
 
 #6.) Lists, tuples, and dictionaries are just a few of the containers built
 #    into Python. Research Python sets. When would you use a set?
+
+x = set(["stu","chris","luis"])
+y = set(["stu", "aaron", "luke", "chris"])
+
+print(x)
+print(y)
+
+print(x.intersection(y))
+print(y.intersection(x))
+
+print(x.difference(y))
+print(y.difference(x))
+
+print(x.symmetric_difference(y))
+print(y.symmetric_difference(x))
