@@ -36,18 +36,26 @@ print(g)
 
 #6.) Replace every instance of "s" in "A screaming comes across the sky" with
 #    a dollar sign
-
+h = "A screaming comes across the sky"
+i = h.replace("s", "$")
+print(i)
 
 #7.) Use a method to find the first index of the character "m" in the string
 #    "Hemingway"
-
+j = "Hemingway"
+print(j.index("m"))
 
 #8.) Find a dialogue in your favorite book and turn it into a string
-
+k = "this is the first sentence"
+l = "and this is the second"
+m = "i think this exercise was a bit out of place"
 
 #9.) Create the string "three three three" using concatenation, and then again
 #    using multiplication
-
+n = "three " + "three " + "three "
+o = "three " * 3
+print(n)
+print(o)
 
 #10.) Slice the string "it was a bright cold day in april, and the clocks were
 #    striking thirteen" to only include characters before the comma
