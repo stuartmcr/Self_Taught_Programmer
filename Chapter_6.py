@@ -59,3 +59,5 @@ print(o)
 
 #10.) Slice the string "it was a bright cold day in april, and the clocks were
 #    striking thirteen" to only include characters before the comma
+p = "it was a bright cold day in april, and the clocks were striking thirteen"
+print(p[:33])
