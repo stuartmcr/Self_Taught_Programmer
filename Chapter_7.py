@@ -11,8 +11,11 @@ for i in range(25, 51):
     print(i)
 
 #3.) print each item in the list from the first challenge and their indexes
-for show in shows:
+shows = ["the walking dead", "entourage", "the sopranos", "vampire diaries"]
+for index, show in enumerate(shows):
     print(show)
+    print(index)
+    
 
 #4.) write a program with an infiite loop(q to quit) and a list of numbers.
 #    each time through the loop ask the user to guess a number on the list
