@@ -11,12 +11,21 @@ for i in range(25, 51):
     print(i)
 
 #3.) print each item in the list from the first challenge and their indexes
-
+for show in shows:
+    print(show)
 
 #4.) write a program with an infiite loop(q to quit) and a list of numbers.
 #    each time through the loop ask the user to guess a number on the list
 #    and tell them whether or not they guesses correctly
+qs = ["Give me a number: "]
 
+x = 0
+while True:
+    print("type q to quit")
+    a = input(qs[x])
+    if a == "q":
+        break
+    x = ( x + 1 ) % 1
 
 #5.) Multiply all the numbers in the list [8, 19, 148, 4] with all the
 #    numbers in the list [9, 1, 33, 83], and append each result to a third list
