@@ -25,8 +25,17 @@ while True:
     a = input(qs[x])
     if a == "q":
         break
-    x = ( x + 1 ) % 1
+    x = ( x + 1) % 1
 
 #5.) Multiply all the numbers in the list [8, 19, 148, 4] with all the
 #    numbers in the list [9, 1, 33, 83], and append each result to a third list
+list1 = [8, 19, 148, 4]
+list2 = [9, 1, 33, 83]
 
+multiplied = []
+
+for i in list1:
+    for j in list2:
+        multiplied.append(i*j)
+
+print(multiplied)
